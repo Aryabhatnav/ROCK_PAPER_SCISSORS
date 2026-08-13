@@ -1,0 +1,101 @@
+.webbody{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(https://i.pinimg.com/1200x/15/76/b5/1576b5303fb8ef85f6c3425061267676.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+h1{
+    background-color: rgb(237, 181, 108);
+}
+.Rock{
+    border: 5px solid black;
+    border-radius: 15px;
+    background-image: url(roak.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+}
+
+.Rock:hover{
+    border: 5px solid blue;
+    border-radius: 15px;
+    background-image: url(roak.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+}
+
+.Paper{
+    border: 5px solid black;
+    border-radius: 15px;
+    background-image: url(paper.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+
+}
+.Paper:hover{
+    border: 5px solid red;
+    border-radius: 15px;
+    background-image: url(paper.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+
+}
+
+.Scissors{
+    border: 5px solid black;
+    border-radius: 15px;
+    background-image: url(scissors.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+
+}
+
+.Scissors:hover{
+    border: 5px solid yellowgreen;
+    border-radius: 15px;
+    background-image: url(scissors.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+
+}
+
+.Reset{
+    height: 60px;
+    width: 160px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: bisque;
+    border-radius: 17px;
+}
+
+.js-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: max-content;
+    border: 2px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: 700;
+}
